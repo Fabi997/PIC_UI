@@ -56,6 +56,12 @@ public abstract class CMDUtility {
 	
 	private static int iWDT = 0;
 	private static int WRegister = 0;
+	
+
+	public static void setWRegister(int wRegister) {
+		WRegister = wRegister;
+	}
+
 	private static int carryFlag =0;
 	private static int digitalCarryFlag =0;
 	private static int zRegister =0;
