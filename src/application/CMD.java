@@ -1,7 +1,5 @@
 package application;
 
-import application.CMDUtility;
-
 public enum CMD {
 	
 	//BYTE-ORIENTED FILE REGISTER OPERATIONS
