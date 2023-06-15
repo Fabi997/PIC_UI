@@ -20,6 +20,7 @@ public class Main extends Application {
         input = readLstFile.readFile(path);
         GUI gui = new GUI(input);
         gui.start(primaryStage);
+        System.out.println("Test");
     }
 
     public List<String> getInput() {
